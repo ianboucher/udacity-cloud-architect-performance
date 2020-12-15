@@ -1,0 +1,14 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Master Database,Amazon RDS for MySQL,0,1847.572,22170.86,USD,"Quantity (1), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (2 TB), Instance type (db.m5.4xlarge), Additional backup storage (1 TB)"
+My Estimate,US East (N. Virginia),Read Replica,Amazon RDS for MySQL,0,1110.666,13327.99,USD,"Quantity (1), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (2 TB), Instance type (db.m5.2xlarge)"
+My Estimate,US East (N. Virginia),Web & App Servers with Autoscaling,Amazon EC2,0,1409.110026,16909.32,USD,"Operating system (Linux), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (100 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB), DT Inbound: Internet (0 TB per month), DT Outbound: Internet (2 TB per month), DT Intra-Region: (0 TB per month), Workload (Daily, (Workload days: Monday, Tuesday, Wednesday, Thursday, Friday, Baseline: 8, Peak: 20, Duration of peak: 5 Hr 0 Min)(Workload days: Sunday, Saturday, Baseline: 8, Peak: 16, Duration of peak: 8 Hr 30 Min)), Advance EC2 instance (t4g.xlarge), Pricing strategy (undefined)"
+My Estimate,US East (N. Virginia),External Load Balancer,Elastic Load Balancing,0,133.23,1598.76,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),Internal Load Balancers,Elastic Load Balancing,0,149.65,1795.8,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),NAT Gateways,Amazon Virtual Private Cloud (VPC),0,66.6,799.2,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Image Storage,S3 Standard,0,14.4,172.8,USD,S3 Standard storage (600 GB per month)
+My Estimate,US East (N. Virginia),Image Storage,Data Transfer,0,0,0,USD,"DT Inbound: Internet (1 TB per month), DT Outbound: Amazon CloudFront (1 TB per month)"
+My Estimate,US East (N. Virginia),Cloudfront Data Transfer Out,AWS Data Transfer,0,1182.63,14191.56,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Internet (13 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),Routing & DNS,Amazon Route 53,0,62.5,750,USD,Hosted Zones (1)
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
